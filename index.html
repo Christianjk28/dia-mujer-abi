@@ -11,10 +11,10 @@
 
 </head>
 
-
 <body>
 
 <div id="particles-js"></div>
+<div class="shooting-star"></div>
 
 <header class="hero">
   <div class="hero-content">
@@ -24,12 +24,20 @@
 
     <button id="btnMensaje">Descubre el mensaje</button>
 
-    <p id="mensajeOculto" class="mensaje-oculto">
-      Hoy es tu día,<br>
-siéntete orgullosa de todo lo que estás logrando.<br>  
-Eres increíble, eres la mejor y sigue trazando tus objetivos y alcanzando cada uno de tus sueños. 💜
+    <!-- MENSAJE OCULTO + GIF -->
+    <div id="mensajeOculto" class="mensaje-oculto">
 
-    </p>
+      <p>
+      Hoy es tu día, <br>
+      siéntete orgullosa de todo lo que estás logrando. <br>
+      Eres increíble, eres la mejor y sigue trazando tus objetivos y alcanzando cada uno de tus sueños. 💜
+      </p>
+
+      <div class="gif-container">
+        <img src="img/git2.gif" class="gif">
+      </div>
+
+    </div>
 
   </div>
 </header>
@@ -39,28 +47,34 @@ Eres increíble, eres la mejor y sigue trazando tus objetivos y alcanzando cada 
 
 <div class="collage">
 
-<img src="img/foto1.jpg" class="foto foto1">
-<img src="img/foto2.jpg" class="foto foto2">
+<img src="img/foto1.png" class="foto foto1">
+<img src="img/foto2.png" class="foto foto2">
 
+</div>
 
+<div class="gif-container">
+  <img src="img/gif.gif" class="gif">
 </div>
 
 </section>
 
+
 <footer>
-  <p>Con mucho aprecio y admiración<br>
+  <p>
+  Con mucho aprecio y admiración<br>
   para Abigail que siga brillando siempre ✨✨<br>
-  <span class="firma">CJ</span></p>
+  PD: Ahora ya sabes porque te pedia fotos para guardar XD <br>
+  <span class="firma">CJ</span>
+  </p>
 </footer>
+
 
 <audio id="musica" loop>
   <source src="musica.mp3" type="audio/mpeg">
 </audio>
+
 <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
 <script src="script.js"></script>
 
-
-
 </body>
-
 </html>
